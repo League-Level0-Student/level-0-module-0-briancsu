@@ -4,7 +4,7 @@
 // 2. Code a size command to make it big enough for your picture
 
 //    The size command looks like this:      
-  size (100,200);
+
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
@@ -12,7 +12,7 @@
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
 
 //    The ellipse command looks like this:      
- ellipse(250,250, 100,100);
+//ellipse(250,250, 10,10);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
@@ -21,7 +21,7 @@
 // 4. Now add a rect command to draw a rectangle.
 
 //    The rect command looks like this:       
-rect(250,250, 100,100);
+//rect(250,250, 750,675);
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
 //    The main difference is the x and y co-ordinates are the top left corner of the shape.
@@ -37,7 +37,7 @@ rect(250,250, 100,100);
 
 //    Paste the code for your selected color between the parentheses.
 //    It should now look something like this (the code will be different):   
-fill(#FFA850);
+//fill(#F70202);
 
 // 6. The next shape you draw will be in the color you selected. 
 //    NOTE: You have to put the fill command with the color you want, 
@@ -46,3 +46,25 @@ fill(#FFA850);
 // 7. Now use all these shapes and colors to draw a picture of your own design. 
 
 // MAKE SURE YOU SAVE YOUR CODE 
+
+size(800, 1000);
+
+fill(#050505);
+rect(325, 150, 120, 120);
+rect(265, 250, 250, 30);
+
+fill(#FFFFFF);
+ellipse(385, 345, 130, 130);
+ellipse(388, 498, 175, 175);
+ellipse(391, 696, 220, 220);
+
+fill(#050505);
+ellipse(388, 460, 10, 10);
+ellipse(388, 500, 10, 10);
+ellipse(388, 540, 10, 10);
+
+ellipse(365, 325, 7, 7);
+ellipse(411, 325, 7, 7);
+
+fill(#FCAD0D);
+triangle(380, 350, 390, 375, 398, 350);
