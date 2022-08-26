@@ -2,7 +2,7 @@
 void setup() {
   
 // 1. Set the size of the sketch. Make it 600 pixels square. 
-  
+  size(600, 600);
 
 }
 
@@ -19,13 +19,13 @@ void draw() {
 if (mousePressed) {
  
    //  put one color here 
-  
+  fill(#03B9FF);
 } else {
-  
+  fill(#03FF3F);
    // put a different color here
   
 }  
-  
+ ellipse(300, 300, 100, 100); 
   
   
 }
