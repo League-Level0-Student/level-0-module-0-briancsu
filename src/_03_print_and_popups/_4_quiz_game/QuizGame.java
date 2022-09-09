@@ -1,5 +1,7 @@
 package _03_print_and_popups._4_quiz_game;
 
+import javax.swing.JOptionPane;
+
 public class QuizGame {
 	public static void main(String[] args) {
 		
@@ -19,5 +21,82 @@ public class QuizGame {
 		
 		// After all the questions have been asked, tell the user their final score 
 		
+		
+		int score = 0;
+		
+		String One = JOptionPane.showInputDialog(null,"Are you cracked? ");
+		String Two = JOptionPane.showInputDialog(null,"Is Fortnite good ");
+		String Three = JOptionPane.showInputDialog(null,"Is the league cool? ");
+		String Four = JOptionPane.showInputDialog(null,"Are you asian? ");
+		
+		if (One.equals("yes")){
+			score += 1;
+			}
+		else {
+			score -= 1;
+		}
+		
+		
+		
+		if (Two.equals("no")){
+			score += 1;
+		}
+		else {
+			score -= 1;
+			}
+		
+		
+		
+		if (Three.equals("yes")){
+			score += 1;
+		}
+		else {
+			score -= 1;
+		}
+		
+		
+		
+		if (Four.equals("yes")){
+			score += 1;
+		}
+		else {
+			score -= 1;
+			
+			
+		}
+		
+		
+		
+		JOptionPane.showMessageDialog(null, "Your score is " +score+".");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
+
+

@@ -12,7 +12,15 @@ public class WorldDomination {
 		// 2. If they say "yes", tell them they will rule the world.
 
 		// 3. Otherwise, tell them to sign up for classes at The League.
-
+		String SUP = JOptionPane.showInputDialog(null,"Do you know how to write code:");
+	if (SUP.equals("yes")) {
+		JOptionPane.showMessageDialog(null,"You will rule the world!");
 	}
+	else {
+		JOptionPane.showMessageDialog(null,"You can sign up for the Leage");
+	}
+		
+	}
+	
 }
 
