@@ -24,8 +24,8 @@ public class QuizGame {
 		
 		int score = 0;
 		
-		String One = JOptionPane.showInputDialog(null,"Are you cracked? ");
-		String Two = JOptionPane.showInputDialog(null,"Is Fortnite good ");
+		String One = JOptionPane.showInputDialog(null,"Are you cool? ");
+		String Two = JOptionPane.showInputDialog(null," ");
 		String Three = JOptionPane.showInputDialog(null,"Is the league cool? ");
 		String Four = JOptionPane.showInputDialog(null,"Are you asian? ");
 		
