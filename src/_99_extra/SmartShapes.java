@@ -21,14 +21,14 @@ bob.setSpeed(1000);
     	
         // Start a while loop to repeat the MOVE, TURN, and COUNT code 4 times
 
-    	while (sides<100) {
+    	while (sides<4) {
 			
 		
         //         MOVE your robot 200 pixels
-bob.move(20);
+bob.move(200);
 
         //         TURN the robot 90 degrees to the right
-    	bob.turn(25);
+    	bob.turn(90);
     	
     	//         COUNT. Add one to the number of sides the robot has drawn      sides+=1;
 sides+=1;
